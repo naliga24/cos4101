@@ -1,0 +1,960 @@
+/* font Body Global*/
+.outer h4{
+  font-weight: 100;
+  color:black;
+}
+/* body GLOBAL header-bar*/
+#header_login , #header_queue , #header_order , #header_product{
+height: 3%;
+}
+#header_login h3, #header_queue h3, #header_order h3, #header_product h3{
+bottom: 33px;
+position: relative;
+}
+/* body GLOBAL Footer*/
+div.footer{
+  text-align: center;
+  position: relative;
+}
+.outer{
+  height: 1000px;
+}
+/* body Login*/
+.login{
+  width: 25%;
+  margin-left: 37.5%;
+}
+.login h1{
+    font-size: 2.5rem;
+    font-weight: 700!important;
+}
+.login .btn{
+  width: 100%
+}
+/* body Queue*/
+.queue .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.queue .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.queue .button button{
+  width: 20%;
+  margin: 0% 2% 0% 2%;
+}
+.queue .status .top , .queue .status .middle , .queue .status .bottom , .queue .status .top h4 , .queue .status .middle h4 , .queue .status .bottom h4{
+  display: flex;
+}
+.queue .status .top{
+  margin-left: 0%;
+}
+.queue .status .top h4{
+  padding: 0% 1% 0% 0.8%;
+  width: 100%;
+}
+.queue .status .top input{
+  margin: 0% 5% 0% 5%;
+  width: 52%;
+}
+.queue .status .top input#queuecode{
+  margin: 0% 5% 0% 4.3%;
+  width: 57%;
+}
+.queue .status .middle{
+  width: 65%;
+}
+.queue .status .middle h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.queue .status .middle input{
+  margin: 0% 5% 0% 5%;
+  width: 60%;
+}
+.queue .status .middle h4#customername{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.queue .status .middle input#customername{
+  margin: 0% 5% 0% 14%;
+  width: 55%;
+}
+.queue .status .middle h4#customeramount{
+  padding: 0% 0% 0% 0%;
+  margin-left: 1%;
+  width:95%;
+}
+.queue .status .middle input#customeramount{
+  margin: 0% 5% 0% 17%;
+  width: 30%;
+}
+.queue .status .middle h4#customertelephone{
+  padding: 0% 10% 0% 0%;
+  margin-left: 3.5%;
+  width:100%;
+}
+.queue .status .middle input#customertelephone{
+  margin: 0% 5% 0% 9.5%;
+  width: 55%;
+}
+.queue .status .bottom h4#email{
+  padding: 0% 1% 0% 1%;
+  width: 21%;
+}
+.queue .status .bottom input#email{
+  margin: 0% 5% 0% 20%;
+  width: 55%;
+}
+.queue .status .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 33.4%;
+}
+.queue .status .bottom h4#queuestatus{
+  padding: 0% 1% 0% 0%;
+  width: 33.4%;
+}
+.queue .status .bottom input#queuestatus{
+  margin: 0% 5% 0% 7%;
+  width: 17%;
+}
+/* body QueueManage*/
+.queue_manage .status .queue_table{
+  width: 100%;
+  margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.queue_manage .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.queue_manage .button button{
+  width: 20%;
+  margin: 0% 2% 0% 2%;
+}
+.queue_manage .status{
+  display: flex;
+}
+.queue_manage .table-wrapper-scroll-y#first{
+  display: block;
+  max-height: 780px;
+  height: 780px;
+  width:350px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  margin-left:1%; 
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 30%;
+}
+.queue_manage .table-wrapper-scroll-y#second{
+  display: block;
+  max-height: 490px;
+  height: 490px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  max-width: 90%;
+  width: 90%;
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  margin-top: 0; margin-right: auto; margin-bottom: 3%; margin-left: auto;
+}
+.queue_manage .table-wrapper-scroll-y#third{
+  display: block;
+  max-height: 255px;
+  height: 255px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  max-width: 90%;
+  width:90%;
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  margin-top: 0%; margin-right: auto; margin-bottom: 3%; margin-left: auto;
+}
+th.stickqueue{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
+/* body QueueReserve*/
+.queue_reserve .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.queue_reserve .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.queue_reserve .button button{
+  width: 20%;
+  margin: 0% 2% 0% 2%;
+}
+.queue_reserve .status .top , .queue_reserve .status .middle , .queue_reserve .status .bottom ,
+.queue_reserve .status .top h4 , .queue_reserve .status .middle h4 , .queue_reserve .status .bottom h4{
+  display: flex;
+}
+.queue_reserve .status .top{
+  margin-left: 0%;
+}
+.queue_reserve .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.queue_reserve .status .top input{
+  margin: 0% 5% 0% 5%;
+  width: 60%;
+}
+.queue_reserve .status .top h4#reservedate{
+
+}
+.queue_reserve .status .top h4 .selectpicker{
+  width: 35%;
+  margin-left: 5%;
+}
+.queue_reserve .status .middle{
+  margin-left: 0%
+}
+.queue_reserve .status .middle h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.queue_reserve .status .middle input{
+  margin: 0% 5% 0% 5%;
+  width: 60%;
+}
+.queue_reserve .status .middle h4#reservename{
+  padding: 0% 1% 0% 1%;
+  width: 60%;
+}
+.queue_reserve .status .middle input#reservename{
+  margin: 0% 5% 0% 5%;
+  width: 51%;
+}
+.queue_reserve .status .middle h4#reserveamount{
+  padding: 0% 1% 0% 1%;
+  width: 40%;
+}
+.queue_reserve .status .middle input#reserveamount{
+  margin: 0% 5% 0% 5%;
+  width: 20%;
+}
+.queue_reserve .status .middle h4#reservetelephone{
+  padding: 0% 1% 0% 1%;
+  width:50%;
+}
+.queue_reserve .status .middle input#reservetelephone{
+  margin: 0% 5% 0% 5%;
+  width: 54.5%;
+}
+.queue_reserve .status .bottom h4#reserveemail{
+  padding: 0% 1% 0% 1%;
+  width: 50%;
+}
+.queue_reserve .status .bottom input#reserveemail{
+  margin: 0% 5% 0% 5%;
+  width: 40%;
+  left: 17px;
+  position: relative;
+}
+.queue_reserve .table{
+  width: 95%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.queue_reserve .table-wrapper-scroll-y{
+  display: block;
+  max-height: 600px;
+  height: 600px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  max-width: 98%;
+  width:98%;
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  margin-top: 2%; margin-right: auto; margin-bottom: 3%; margin-left: auto;
+}
+th.stickqueue{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
+/* body Order*/
+.order .status , .order .food{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+width: 98%;
+margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.order .status .top , .order .status .middle , .order .status .bottom , .order .food .top , .order .food .bottom , .order .food .middle ,
+.order .status h4 , .order .food h4{
+  display: flex;
+}
+.order .status{
+ margin-bottom:1%; 
+}
+.order .status .top h4 .selectpicker{
+  width: 180px;
+  margin-left: 17.5%;
+}
+.order .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 55%;
+}
+.order .status .top input{
+  margin: 0% 5% 0% 4%;
+  width: 50%;
+}
+.order .status .top input#tablecapacity{
+  margin: 0% 5% 0% 7.5%;
+  width: 50%;
+}
+.order .status .top input#tablestatus{
+  margin: 0% 5% 0% 1%;
+  width: 50%;
+}
+.order .status .middle h4{
+  margin: 0% 1% 0% 1%;
+  width: 23%;
+}
+.order .status .middle input#queuecode{
+  margin: 0% 1% 0% 20%;
+  width: 50%;
+}
+.order .status .middle input#customername{
+  margin: 0% 1% 0% 20%;
+  width: 50%;
+}
+.order .status .middle input#customeramount{
+  margin: 0% 1% 0% 5%;
+  width: 50%;
+}
+.order .status .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 55%;
+}
+.order .status .bottom input#ordercode{
+  margin: 0% 5% 0% 0%;
+  width: 50%;
+}
+.order .status .bottom input#orderdate{
+  margin: 0% 5% 0% 10%;
+  width: 50%;
+}
+.order .status .bottom input#ordertime{
+  margin: 0% 5% 0% 2%;
+  width: 50%;
+}
+.order .status .bottom input#ordertotalprice{
+  margin: 0% 5% 0% 19%;
+  width: 50%;
+}
+.order .food .top{ 
+margin-left: 15px;
+}
+.order .food .top button{ 
+  height:36px;
+  width: 300px;
+  margin: 0% 2% 0% 3%;
+}
+.order .food .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.order .food .top input{
+  margin: 0% 5% 0% 5%;
+  width: 45%;
+}
+.order .food .middle h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.order .food .middle input{
+  margin: 0% 5% 0% 5%;
+  width: 45%;
+}
+.order .food .middle input#foodcode{
+  margin: 0% 5% 0% 7.5%;
+  width: 45%;
+}
+.order .food .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 33.5%;
+} 
+.order .food .bottom input{
+  margin: 0% 5% 0% 5%;
+  width: 40%;
+}
+.order .food .bottom input#foodprice{
+  margin: 0% 5% 0% 5%;
+  width: 45%;
+}
+.order .food .bottom input#foodamount{
+  margin: 0% 5% 0% 9%;
+  width: 45%;
+}
+.order .food .bottom button{ 
+  height:36px;
+  width: 312px;
+  margin: 0.5% 2% 0% 0.8%;
+}
+.order .table{
+  width: 80%;
+  margin-top: 0%; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.order .table-wrapper-scroll-y{
+  display: block;
+  max-height: 450px;
+  height: 450px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+th.stickyorder{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
+/* body Payment*/
+.order .button button{
+    width: 20%;
+    margin: 0% 2% 0% 2%;
+}
+.order .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.order .status .top input#paymentdate{
+  margin: 0% 5% 0% 6%;
+  width: 50%;
+}
+.order .status .top input#paymenttime{
+  margin: 0% 5% 0% 15%;
+  width: 50%;
+}
+.order .status .bottom input#receiveamount{
+  margin: 0% 5% 0% 14.5%;
+  width: 50%;
+}
+.order .status .bottom input#exchangeamount{
+  margin: 0% 5% 0% 2.5%;
+  width: 50%;
+}
+.order .status .bottom input#paymentstatus{
+  margin: 0% 5% 0% 2.7%;
+  width: 50%;
+}
+.order .table#firstpayment{
+  width: 80%;
+  margin-top: 0%;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+.order .table-wrapper-scroll-y#firstpayment{
+  display: block;
+  max-height: 350px;
+  height: 350px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+th.stickpayment{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
+/* body PaymentSearch*/
+.payment_search .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.payment_search .button button{
+    width: 20%;
+    margin: 0% 2% 0% 2%;
+}
+.payment_search .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.payment_search .status .top , .payment_search .status .bottom , .payment_search .status .top h4 , .payment_search .status .bottom h4{
+display: flex;
+}
+.payment_search .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.payment_search .status .top h4 #date{
+  width: 100%;
+}
+.payment_search .status .top input{
+  margin: 0% 5% 0% 5%;
+  width: 40%;
+}
+.payment_search .status .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 25%;
+}
+.payment_search .status .bottom input{
+  margin: 0% 5% 0% 9%;
+  width: 63%;
+}
+.payment_search .status .bottom button.navbar-btn{
+  height:36px;
+  width: 1020px;
+  margin: 1% 2% 1% 1%;
+}
+.payment_search .selectpicker{
+  margin-left: 15px;
+  width: 120px;
+}
+.payment_search .table{
+  margin-top: 2%;
+  width: 85%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.payment_search .table-wrapper-scroll-y{
+  display: block;
+  max-height: 420px;
+  height: 420px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+th.stickypaymentsearch{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
+/* body Cooking*/
+.cooking .table-wrapper-scroll-y#first{
+  display: block;
+  max-height: 300px;
+  height: 300px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  margin-top: 2%;
+  width: 95%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.cooking .table-wrapper-scroll-y#second{
+  display: block;
+  max-height: 300px;
+  height: 300px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  margin-top: 50px;
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  margin-top: 2%;
+  width: 95%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 0%; margin-left: auto;
+}
+th.stickycooking{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
+/* body Product*/
+.product .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+  }
+.product .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+  }
+.product .button button{
+    width: 20%;
+    margin: 0% 2% 0% 2%;
+}
+.product .status .top , .product .status .bottom , .product .status .top h4 , .product .status .bottom h4{
+display: flex;
+}
+.product .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.product .status .top input#foodcode{
+  margin: 0% 2% 0% 10%;
+}
+.product .status .top input{
+  margin: 0% 5% 0% 5%;
+  width: 50%;
+}
+.product .status .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 25%;
+}
+.product .status .bottom input{
+  margin: 0% 5% 0% 9%;
+  width: 50%;
+}
+.product .status .bottom h4.status{
+margin-left: 130px;
+border-style: none;
+}
+.product .status .bottom h4#foodprice{
+  padding: 0% 1% 0% 1%;
+  width: 27%;
+}
+.product .status .bottom input#foodprice{
+  margin: 0% 2% 0% 9.5%;
+  width: 63%;
+}
+.product .status .top h4 .selectpicker{
+  width: 180px;
+  margin-left: 15px;
+}
+.product .status .bottom h4 .selectpicker{
+  width: 181px;
+  margin-left: 68px;
+}
+.product .status .bottom h4#foodstatus{
+  padding: 0% 1% 0% 1%;
+  margin-left: 6.5%;
+  width: 30%;
+}
+/* body ProductSearch*/
+.product_search .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+  }
+.product_search .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+  }
+.product_search .button button{
+    width: 20%;
+    margin: 0% 2% 0% 2%;
+}
+.product_search .status .top , .product_search .status .bottom , .product_search .status .top h4 , .product_search .status .bottom h4{
+display: flex;
+}
+.product_search .status .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 40%;
+}
+.product_search .status .bottom h4#search_methods{
+  width: 42%;
+  margin-left: 2%;
+}
+.product_search .status .bottom input{
+  margin: 0% 5% 0% 3%;
+  width: 53%;
+}
+.product_search .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 34.5%;
+}
+.product_search .status .top input{
+  margin: 0% 5% 0% 5%;
+  width: 50%;
+}
+.product_search .status .bottom .selectpicker{
+  margin-left: 15px;
+  width: 41.5%;
+}
+.product_search .status .bottom button.btn{ 
+  height:36px;
+  width: 500px;
+  margin-right: 5%;
+}
+.product_search .table{
+  margin-top: 2%;
+  width: 70%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.product_search .table-wrapper-scroll-y{
+  display: block;
+  max-height: 700px;
+  height: 700px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+th.stickyfoodsearch{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
+/* body Table*/
+.table .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+  }
+.table .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+  }
+.table .button button{
+    width: 20%;
+    margin: 0% 2% 0% 2%;
+}
+.table .status .top , .table .status .top h4{
+display: flex;
+}
+.table .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.table .status .top input{
+  margin: 0% 5% 0% 5%;
+  width: 50%;
+}
+.table .status .top h4 .selectpicker{
+  margin-left: 15px;
+  width: 40%;
+} 
+/* body TableSearch*/
+.table_search .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+  }
+.table_search .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+  }
+.table_search .button button{
+    width: 20%;
+    margin: 0% 2% 0% 2%;
+}
+.table_search .status .top , .table_search .status .bottom , .table_search .status .top h4 , .table_search .status .bottom h4{
+display: flex;
+}
+.table_search .status .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 25%;
+}
+.table_search .status .bottom input{
+  margin: 0% 5% 0% 9%;
+  width: 50%;
+}
+.table_search .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 34.5%;
+}
+.table_search .status .top input{
+  margin: 0% 5% 0% 5%;
+  width: 50%;
+}
+.table_search .status .top h4 .selectpicker{
+  margin-left: 15px;
+  width: 38.5%;
+}
+.table_search .status .bottom h4 .selectpicker{
+  margin-left: 15px;
+  width: 44%;
+}
+.table_search .status .bottom button.navbar-btn{ 
+  height:36px;
+  width: 1080px;
+  margin: 1% 2% 1% 1%;
+}
+.table_search .table{
+  margin-top: 2%;
+  width: 70%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.table_search .table-wrapper-scroll-y{
+  display: block;
+  max-height: 700px;
+  height: 700px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+th.stickytablesearch{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
+/* body Configuration*/
+.configuration .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+  padding-bottom: 1%;
+}
+.configuration .button button{
+    width: 20%;
+    margin: 0% 2% 0% 1%;
+}
+.configuration .status #top , .configuration .status #bottom , .configuration .status #top h4{
+display: flex;
+}
+.configuration .status #top h4{ 
+  width: 25%;
+  padding: 0% 1% 0% 1%;
+}
+.configuration .status #top h4 .selectpicker{ 
+  margin-left: 15px;
+  width: 45%;
+}
+.configuration .status #top h4 input{
+  width: 47%;
+  margin-left: 15px;
+}
+.configuration .status #top li{
+  width: 20%;
+  border-style:none;
+
+}
+.configuration .status #bottom li{
+  width: 26.7%;
+  border-style:none;
+}
+.configuration .status #bottom{
+margin-left: 25%;
+
+}
+.configuration .status #top li span , .configuration .status #bottom li span{
+margin-left: 5px;
+}
+.configuration .status #top li input , .configuration .status #bottom li input{
+  width: 13px;
+  height: 13px;
+}
+.configuration .table{
+  margin-top: 2%;
+  width: 70%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+/* body User*/
+.user .status , .user .status1{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.user .button button{
+    width: 20%;
+    margin: 0% 2% 0% 2%;
+}
+.user .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.user .status .top , .user .status .bottom , .user .status .top h4 , .user .status .bottom h4 ,
+.user .status1 .top , .user .status1 .bottom , .user .status1 .top h4 , .user .status1 .bottom h4{
+display: flex;
+}
+.user .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.user .status .top input{
+  margin: 0% 5% 0% 5%;
+  width: 50%;
+}
+.user .status .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 30%;
+}
+.user .status .bottom input{
+  margin: 0% 5% 0% 9%;
+  width: 50%;
+}
+.user .status .bottom h4#status .selectpicker{ 
+  margin-left: 40px;
+  width: 56%;
+}
+.user .status .bottom h4 .selectpicker{ 
+  margin-left: 58px;
+  width: 56%;
+}
+.user .status .bottom h4#status{
+margin-left: 50px;
+border-style:none;
+}
+.user .status1 .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.user .status1 .top input{
+  margin: 0% 5% 0% 5%;
+  width: 50%;
+}
+.user .status1 .bottom h4{
+  padding: 0% 1% 0% 1%;
+  width: 30%;
+}
+.user .status1 .bottom input{
+  margin: 0% 5% 0% 9%;
+  width: 50%;
+}
+.user .status1 .bottom h4#inactivetime{
+  padding: 0% 1% 0% 1%;
+  margin-left: 4%;
+  width: 30%;
+}
+.user .status1 .bottom{
+  margin-left: 275px;
+}
+/* body UserSearch*/ 
+.user_search .status{
+  border: solid #b9def0 5px;
+  border-radius: 10px;
+  width: 98%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 0; margin-left: auto;
+}
+.user_search .button button{
+    width: 20%;
+    margin: 0% 2% 0% 2%;
+}
+.user_search .button{
+  width: 60%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.user_search .status .top , .user_search .status .top h4{
+  display: flex;
+}  
+.user_search .status .top h4{
+  padding: 0% 1% 0% 1%;
+  width: 100%;
+}
+.user_search .status .top h4 input{
+  margin: 0px 0px 0px 15px;
+  width: 60%;
+}
+.user_search .table{
+  margin-top: 2%;
+  width: 70%;
+  margin-top: 1%; margin-right: auto; margin-bottom: 1%; margin-left: auto;
+}
+.user_search .status .top button{ 
+  height:36px;
+  width: 1000px;
+  margin: 1% 2% 1% 1%;
+}
+.user_search .table-wrapper-scroll-y{
+  display: block;
+  max-height: 700px;
+  height: 700px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+th.stickyusersearch{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:white;
+}
